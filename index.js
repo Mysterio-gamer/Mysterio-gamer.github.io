@@ -56,3 +56,10 @@ closeBtn.onclick = () => {
     //Paush on close video
     myvideo.pause();
 }
+
+var searchbox = document.getElementById("search-box");
+var searchinput = document.getElementById("search-input");
+
+searchinput.onclick = function() {
+    searchbox.classList.toggle("active");
+}
